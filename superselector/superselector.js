@@ -345,12 +345,20 @@
 			"<div id='superselect_tabs'>" +
 			"<ul>" +
 				"<li id='superselect_generatortab' class='superselect_activetab' onclick=\"superselector.prototype.setActive('superselect_generatortab', 'superselect_generator')\">Generator</li>" +
+				"<li id='superselect_configscrp' onclick=\"superselector.prototype.setActive('superselect_configscrp', 'superselect_scrp')\">Scraper</li>" +
 				"<li id='superselect_configtab1' onclick=\"superselector.prototype.setActive('superselect_configtab1', 'superselect_config1')\">Config Classes</li>" +
 				"<li id='superselect_configtab2' onclick=\"superselector.prototype.setActive('superselect_configtab2', 'superselect_config2')\">Config Ids</li>" +
 			"</ul>" +
 			"</div>" +
 			"<div id='superselect_tabcontent'>" +
 				"<div id='superselect_generator'>" +
+					"<div id='superselect_generated'></div>" +
+					"<div class='superselect_genoptions'>" +
+						"<input id='ignoreAllConfig' type='checkbox' value='Ignore all config' name=''>" +
+						"<span>Ignore all config</span>" +
+					"</div>" +
+				"</div>" +
+				"<div id='superselect_scrp'>" +
 					"<div id='superselect_generated'></div>" +
 					"<div class='superselect_genoptions'>" +
 						"<input id='ignoreAllConfig' type='checkbox' value='Ignore all config' name=''>" +
